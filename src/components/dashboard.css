@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+body{
+  background: black;;
+  color: white;  
+}
+
+.dashboard{
+    display: flex;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(95, 7, 76);
+    border-style: groove;
+    padding-right: 100px;
+    
+  }
+  
+  /* .flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  } */
+
+.widgetTitle{
+    border-bottom: 1px solid #d32424;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 10px 10px;
+
+
+}
+.widgetWrap{
+    background: #2a2a2a;
+    display: flex;
+}
+
+.widgetValue{
+    font-size: 100px;
+    font-weight: 500;
+    text-align: left;
+    padding: 0px 7px;
+    line-height: 100%;
+
+}
+.description{
+    text-align: left;
+    font-size: 13px;
+    padding-left: 13px;
+}
